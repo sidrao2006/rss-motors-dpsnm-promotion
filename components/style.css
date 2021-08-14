@@ -90,24 +90,7 @@ nav .link a {
   width: 100%;
 
 }
-@media only screen and (max-width: 950px) {
-    .contentContainer img{
-        width: 400px;
-        height: 250px;
-    }
-  }
-  @media only screen and (max-width:750px) {
-    .content{
-       flex-direction: column;
-       height: 85vh;
 
-    }
-    .contentContainer{
-        height: 125vh;
-        
-
-    }
-  }
 .realContent {
   display: flex;
   flex-direction: column;
@@ -165,7 +148,39 @@ nav .link a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-   
     height: 100px;
 }
 
+@media only screen and (max-width: 950px) {
+    .contentContainer img{
+        width: 400px;
+        height: 250px;
+    }
+  }
+  @media only screen and (max-width:750px) {
+    .content{
+       flex-direction: column;
+       height: 85vh;
+
+    }
+    .contentContainer{
+        height: 125vh;
+        
+
+    }
+    .contentContainer h1{
+        font-size:35px;
+    }
+    .contentContainer h2{
+        font-size:25px;
+        width:250px;
+    }
+    .specificationContainer{
+        flex-direction: column; 
+        /* border:2px solid red; */
+        height:60vh;
+    }
+    .showContainer{
+        width:100%;
+    }
+  }
