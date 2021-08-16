@@ -8,7 +8,7 @@
 html,
 body {
   height: 100%;
-  width: 100%;
+  width: 99%;
   background: #0c0000;
   scroll-behavior: smooth;
 }
@@ -180,9 +180,9 @@ nav .link a {
 }
 
 footer {
-  border-top: 15px solid rgba(255, 255, 255, 0.245);
+  border-top: 6px solid rgba(255, 255, 255, 0.245);
   padding: 10px;
-  width: 100%;
+  width: 104%;
   color: #ddd;
   display: flex;
   flex-direction: column;
@@ -201,7 +201,7 @@ footer .mediaIcons {
   /* padding-right: 100px; */
   height: 20vh;
   /* float: right; */
-  width: 100%;
+  width: 92%;
 }
 #twitter,
 #insta,
