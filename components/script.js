@@ -1,11 +1,11 @@
 const showContainer = document.querySelector(".showContainer")
 const audio = new Audio('../public/car.mpeg');
 audio.playbackRate=1.7;
+audio.autoplay = true;
+window.onload = function() {
+  audio.play();
 
-
-setTimeout(() => {
-audio.play();
-}, 1900);
+};
 
 
 
