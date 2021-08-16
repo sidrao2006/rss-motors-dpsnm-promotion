@@ -56,6 +56,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   Rssmotors.style.opacity='1';
+  Rssmotors.style.height='auto';
   // Rssmotors.style.display='flex';
   Rssmotors.style.transition='1s'
   Rssmotors.style.pointerEvents='all';
